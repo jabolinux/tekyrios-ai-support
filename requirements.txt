@@ -1,0 +1,40 @@
+# Tekyrios AI Support — Dependencias
+# Stack: LangGraph + LangFuse + LangSmith sobre Floci (AWS local)
+
+# LangGraph / LangChain
+langgraph>=1.0.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+
+# Checkpointer DynamoDB oficial (langgraph-checkpoint-aws) — usa tabla única PK/SK
+langgraph-checkpoint-aws>=1.0.0
+
+# AWS SDK (apuntado a Floci via AWS_ENDPOINT_URL)
+boto3>=1.35.0
+aioboto3>=13.0.0
+awscli>=1.35.0
+
+# Observabilidad
+langfuse>=2.0.0
+langsmith>=0.3.0
+
+# API
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.9.0
+
+# Frontend
+streamlit>=1.40.0
+
+# RAG / Vector
+langchain-aws>=0.2.0
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+
+# Utils
+requests>=2.32.0

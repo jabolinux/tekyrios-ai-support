@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Env y secretos
+.env
+
+# AWS/Floci
+lambda.zip
+*.zip
+
+# IDE
+.idea/
+.vscode/
+
+# LangFuse (self-host)
+langfuse-db-data/
+langfuse-cache-data/
+
+# OS
+.DS_Store
