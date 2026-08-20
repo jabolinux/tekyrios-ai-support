@@ -13,6 +13,19 @@ UML sequence diagrams.
 
 Author: Jaime Alfredo Bonilla Pérez
 jaimebp@gmail.com
+
+## How to read this document
+
+In plain terms: this project is a smart support desk you can run entirely on
+your laptop. It reads a customer's question, works out what kind of help they
+need, and sends it to the right specialist — technical, billing, HR, or a
+general helper. When none of the automated helpers can confidently answer, the
+question is passed to a real person.
+
+Everything below explains how to install, run, and understand it. If you just
+want to see it working, skip to [Running](#running).
+
+
 ---
 
 ## Features

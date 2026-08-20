@@ -26,6 +26,12 @@ whole stack is reproducible without a cloud account. An OpenAI-compatible LLM
 endpoint (e.g. a local `qwen` model served at `http://192.168.1.10:8081/v1`) is
 used through `langchain-openai`.
 
+> **How to read this document.** This is a plain-language map of how the
+> system is put together, not a formal specification. Read top to bottom for the
+> big picture, or jump to a specific diagram using the table of contents. The
+> goal is that any engineer (or curious stakeholder) can understand the moving
+> parts without prior knowledge of LangGraph or Floci.
+
 ---
 
 ## 2. Four-Layer Architecture
