@@ -26,6 +26,13 @@ whole stack is reproducible without a cloud account. An OpenAI-compatible LLM
 endpoint (e.g. a local `qwen` model served at `http://192.168.1.10:8081/v1`) is
 used through `langchain-openai`.
 
+> **Cloud portability by design.** We chose Floci because it speaks the standard
+> AWS APIs, and the code only uses ordinary AWS SDK calls. That means it runs
+> as-is on real **AWS**, and maps cleanly onto equivalent managed services on
+> **GCP** and **Azure** (object storage + NoSQL table + message queue). The
+> agent can therefore be installed on any of the three major clouds with
+> configuration changes only — no code rewrites.
+
 > **How to read this document.** This is a plain-language map of how the
 > system is put together, not a formal specification. Read top to bottom for the
 > big picture, or jump to a specific diagram using the table of contents. The

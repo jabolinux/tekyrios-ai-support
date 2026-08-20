@@ -25,6 +25,23 @@ question is passed to a real person.
 Everything below explains how to install, run, and understand it. If you just
 want to see it working, skip to [Running](#running).
 
+## Why Floci (and why it runs on any cloud)
+
+We deliberately built and tested the whole project against **Floci**, a local
+emulator that speaks the standard AWS APIs (S3, DynamoDB, SQS, Lambda). The code
+never calls anything cloud-specific — it only uses ordinary AWS SDK calls — so
+there is nothing to rewrite when you move it:
+
+- On **AWS**, it runs as-is: Floci is simply a free, local stand-in for the real
+  services.
+- On **GCP** and **Azure**, the same architecture maps onto equivalent managed
+  services (object storage, a NoSQL table, and a message queue), so the agent
+  can be installed on any of the three major clouds with configuration changes
+  only.
+
+In short, Floci let us develop and demo locally at zero cost, while keeping the
+door open to deploy on AWS, GCP, or Azure.
+
 
 ---
 
