@@ -1,6 +1,6 @@
 # AI Support flow
 
-A **multi-agent customer-support assistant** for **Tekyrios SAS**, built with
+A **multi-agent customer-support assistant**, built with
 **LangGraph** (agent orchestration), **LangFuse** + **LangSmith** (observability),
 and **Floci** (a local AWS emulator: S3 / DynamoDB / SQS / Lambda).
 
@@ -10,7 +10,8 @@ base (RAG), and can escalate to a human via a queue + Human-in-the-Loop pause.
 
 See [`architecture.md`](./architecture.md) for the full 4-layer design and
 UML sequence diagrams.
-
+Author: Jaime Alfredo Bonilla Pérez
+jaimebp@gmail.com
 ---
 
 ## Features
