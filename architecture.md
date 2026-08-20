@@ -1,12 +1,12 @@
-# Tekyrios AI Support — Architecture
+# Flow AI Support — Architecture
 
-> Multi-agent customer-support assistant for **Tekyrios SAS**, built with
+> Multi-agent customer-support assistant for companies used by **Tekyrios SAS, built with
 > **LangGraph** (orchestration), **LangFuse** + **LangSmith** (observability),
 > and **Floci** (a local AWS emulator providing S3 / DynamoDB / SQS / Lambda).
 
 All diagrams in this document are written in **Mermaid** so they render on
 GitHub, in VS Code, and in any Markdown viewer.
-
+Author: Jaime Alfredo Bonilla Pérez jaimebp@gmail.com
 ---
 
 ## 1. System Overview
