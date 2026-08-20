@@ -1,4 +1,4 @@
-# Tekyrios AI Support
+# AI Support flow
 
 A **multi-agent customer-support assistant** for **Tekyrios SAS**, built with
 **LangGraph** (agent orchestration), **LangFuse** + **LangSmith** (observability),
