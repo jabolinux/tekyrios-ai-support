@@ -6,6 +6,7 @@
 
 All diagrams in this document are written in **Mermaid** so they render on
 GitHub, in VS Code, and in any Markdown viewer.
+
 Author: Jaime Alfredo Bonilla Pérez jaimebp@gmail.com
 ---
 
